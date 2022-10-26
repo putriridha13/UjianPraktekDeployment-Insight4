@@ -503,3 +503,7 @@ footer .glyphicon {
 	background-color: #cc0000;
 }
 
+.chat-logs2::-webkit-scrollbar-track
+{
+	background-color: #F5F5F5;
+}
