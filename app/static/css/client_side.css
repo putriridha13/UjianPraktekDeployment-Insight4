@@ -199,7 +199,7 @@ footer .glyphicon {
   position: relative;
   top: 300px;
   left: 185px;
-  background: #cc0000;
+  background: #1c1c1c;
   width: 80px;
   height: 80px;  
   border-radius: 50%;
@@ -212,7 +212,7 @@ footer .glyphicon {
   position: relative;
   top: 300px;
   left: 185px;
-  background: #28ace5;
+  background: #ffc400;
   width: 80px;
   height: 80px;  
   border-radius: 50%;
@@ -288,7 +288,7 @@ footer .glyphicon {
 }
 
 .chat-box-header1 {
-  background: #cc0000;
+  background: #1c1c1c;
   height:70px;
   border-top-left-radius:5px;
   border-top-right-radius:5px; 
@@ -299,7 +299,7 @@ footer .glyphicon {
 }
 
 .chat-box-header2 {
-  background: #28ace5;
+  background: #ffc400;
   height:70px;
   border-top-left-radius:5px;
   border-top-right-radius:5px; 
@@ -405,7 +405,7 @@ footer .glyphicon {
   box-shadow:none;
   border:none;
   border-radius:50%;
-  color:#cc0000;
+  color:#1c1c1c;
   width:35px;
   height:35px;  
 }
@@ -418,7 +418,7 @@ footer .glyphicon {
   box-shadow:none;
   border:none;
   border-radius:50%;
-  color:#28ace5;
+  color:#ffc400;
   width:35px;
   height:35px;  
 }
@@ -466,14 +466,14 @@ footer .glyphicon {
 .chat-msg.self > .cm-msg-text1 {  
   float:right;
   margin-right:10px;
-  background: #cc0000;
+  background: #1c1c1c;
   color:white;
 }
 
 .chat-msg.self > .cm-msg-text2 {  
   float:right;
   margin-right:10px;
-  background: #28ace5;
+  background: #ffc400;
   color:white;
 }
 
@@ -512,4 +512,9 @@ footer .glyphicon {
 {
 	width: 5px;  
 	background-color: #F5F5F5;
+}
+
+.chat-logs2::-webkit-scrollbar-thumb
+{
+	background-color: #28ace5;
 }

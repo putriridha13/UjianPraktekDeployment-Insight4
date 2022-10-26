@@ -55,7 +55,7 @@ def apiDeteksi():
 		tf_idf_vec = TfidfVectorizer(decode_error="replace", vocabulary=set(vocab))
 
 		# Prediksi (Penipuan, Promo, atau Normal)
-		hasil = model.predict(tf_idf_vec.fit_transform([text_input]))
+		hasil = model.predict(tf_idf_vec.fit_transform([text_input]).toarray())
 
 		if(hasil==0):
 			hasil_prediksi = "Normal"
@@ -85,7 +85,7 @@ if __name__ == '__main__':
 	vocab = pickle.load(open('kbest_feature.pickle', 'rb'))
 	
 	# Load model yang telah ditraining
-	model = load('model_spam_tfidf_nb.model')
+	model = load('model_spam_SVM.model')
 
 	# Run Flask di localhost 
 	app.run(host="localhost", port=5000, debug=True)
